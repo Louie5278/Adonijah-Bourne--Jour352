@@ -4,22 +4,91 @@ body{
   font-weight:400;
 }
 
-h1 {
+#name {
   color:#33485e;
   text-transform:uppercase;
   text-align:center;
   font-size:3em;
+  border-bottom:1px solid #33485e;
+  width:60%;
+  min-width: 300px;
+  margin:0 auto;
+
 }
-strong{
+#title{
   color:#33485e;
   text-transform:uppercase;
   font-size:1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom:0px;
+
+}
+.jobtitle{
+  font-size:1.5em;
+  font-weight:600;
 }
 
-h2 {
+.sectionheader {
   font-size:1.5em;
   text-transform:uppercase;
   background-color:#33485e;
   color:#ffffff;
   font-weight:400;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left: 0;
+  margin-right: 0;
+  width:70%;
+  min-width:300px;
+}
+
+#container{
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+.Organization{
+  font-size: 1.25em;
+  font-weight:400;
+}
+.date{
+  margin-top:2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-size: 1em;
+  font-weight:400;
+  font-style:italic;
+}
+
+p.description{
+margin-top:10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom:0px;
+
+}
+ul.menu{
+margin: 0px;
+padding: 0px;
+text-align:center;
+display:inline;
+}
+
+ul#degrees{
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+
+}
+ul#do{
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
